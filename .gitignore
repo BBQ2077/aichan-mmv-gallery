@@ -1,0 +1,16 @@
+# 只放行圖片、腳本與說明文件
+*
+!*/
+!*.png
+!*.jpg
+!*.jpeg
+!*.webp
+!tools/**/*.py
+!tools/**/*.sh
+!README.md
+!LICENSE.md
+!.gitignore
+_secrets/
+*.env
+.env*
+__pycache__/
